@@ -1,0 +1,35 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "vaidating product product from addTOcart is removed",
+        "description": "",
+        "id": "validating-amazon-add-to-cart-page;vaidating-product-product-from-addtocart-is-removed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46116411000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Amazon page",
+            "match": {
+              "location": "StepDef.i_am_on_Amazon_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Validating Amazon Add to cart page",
+    "description": "",
+    "id": "validating-amazon-add-to-cart-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Amazon.feature",
+    "tags": []
+  }
+]
